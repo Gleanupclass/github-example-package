@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>github-example-package</artifactId>
-    <version>1.2.${GITHUB_RUN_ID}</version>
+    <version>1.2.${GITHUB_RUN_NUMBER}</version>
     <packaging>jar</packaging>
 
     <distributionManagement>
