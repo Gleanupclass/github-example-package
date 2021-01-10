@@ -10,26 +10,26 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub KapilBishnoi Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/KapilBishnoi/github-example-package</url>
+            <name>GitHub GleanupclassApache Maven Packages</name>
+            <url>https://maven.pkg.github.com/gleanupclass/github-example-package</url>
         </repository>
     </distributionManagement>
-    <developers>
+    <!-- <developers>
         <developer>
-            <name>Kapil Bishnoi</name>
+            <name>Gleanup admin</name>
             <email></email>
-            <organization>com.github.kapilbishnoi</organization>
-            <organizationUrl>https://github.com/KapilBishnoi/github-example-package</organizationUrl>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/KapilBishnoi/github-example-package.git</connection>
-        <developerConnection>scm:git:https://github.com/KapilBishnoi/github-example-package.git
+            <organization>com.github.gleanupclass</organization>
+            <organizationUrl>https://github.com/gleanupclass/github-example-package</organizationUrl>
+        </developer> 
+    </developers> -->
+<!-- Extra Not mandatory -->
+   <!--<scm>
+        <connection>scm:git:git://github.com/gleanupclass/github-example-package.git</connection>
+        <developerConnection>scm:git:https://github.com/gleanupclass/github-example-package.git
         </developerConnection>
-        <url>https://github.com/KapilBishnoi/github-example-package</url>
+        <url>https://github.com/gleanupclass/github-example-package</url>
         <tag>github-example-package</tag>
-    </scm>
+    </scm> --> 
 
     <build>
         <pluginManagement>
@@ -69,5 +69,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
